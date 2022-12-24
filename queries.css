@@ -1,0 +1,595 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+  .hamburger {
+    display: none;
+  }
+  .sect--1,
+  .sect--2,
+  .sect--3 {
+    margin-left: 170px;
+    width: 65%;
+  }
+
+  .nav {
+    width: 100%;
+    padding: 0 15rem;
+  }
+  .nav__links {
+    font-size: 15px;
+    list-style: none;
+    font-weight: 550;
+    transition: 2ms;
+  }
+  .nav__logo {
+    margin-top: -2rem;
+  }
+  .master__logo {
+    margin-left: 550px;
+    margin-top: -10%;
+    text-align: center;
+  }
+  #master--1 {
+    margin-left: 30px;
+    text-align: center;
+  }
+  #beauty--1 {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .book--mark {
+    margin-left: 150%;
+    padding-right: 100px;
+  }
+  .overlay {
+    height: 280.5%;
+  }
+}
+
+/* big tablet to 1024px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1023px) {
+  .hamburger {
+    display: none;
+  }
+  .sect--1,
+  .sect--2,
+  .sect--3 {
+    margin-left: 150px;
+    width: 65%;
+  }
+
+  .nav {
+    width: 100%;
+    padding: 0 15rem;
+  }
+  .nav__links {
+    font-size: 15px;
+    list-style: none;
+    font-weight: 550;
+    transition: 2ms;
+  }
+  .nav__logo {
+    margin-top: -2rem;
+  }
+  .master__logo {
+    margin-left: 400px;
+    margin-top: -10%;
+    text-align: center;
+  }
+  #master--1 {
+    margin-left: 30px;
+    text-align: center;
+  }
+  #beauty--1 {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .book--mark {
+    margin-left: 90%;
+    padding-right: 100px;
+  }
+  .overlay {
+    height: 280.5%;
+  }
+}
+
+/* big tablet to 768px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 767px) {
+  header {
+    background-image: url(/images/image-hero-mobile.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+  }
+  .nav__logo {
+    margin-top: -2rem;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+    padding: 0 6rem;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .nav__links {
+    margin-left: -90%;
+    margin-top: 15rem;
+    border: 1mm solid white;
+    border-radius: 2mm;
+    padding: 1px 100px 1px 0px;
+    background-color: white;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 550;
+    transition: 2ms;
+  }
+  .nav__item {
+    margin-top: 2rem;
+    display: inline-block;
+  }
+  .nav__link {
+    text-decoration: none;
+    color: rgba(21, 17, 17, 0.776);
+  }
+  .nav__link:hover,
+  .nav__link:active {
+    color: white;
+  }
+  .hidden {
+    display: none;
+  }
+  .hid {
+    display: none;
+  }
+  .close {
+    margin-top: -7rem;
+    align-items: center;
+    width: 5%;
+    margin-left: 55%;
+  }
+  .hamburger {
+    display: inline-block;
+    margin-top: -5rem;
+    align-items: center;
+    width: 5%;
+  }
+
+  .sect--1,
+  .sect--2,
+  .sect--3 {
+    border-radius: 3mm;
+    border: 2mm solid white;
+    background-color: white;
+    margin-left: 35px;
+    padding: 20px 10px 10px 10px;
+    width: 90%;
+    margin-top: 2%;
+  }
+
+  .master__logo {
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+  }
+
+  .sect--1 {
+    margin-top: -1%;
+  }
+  #master--1 {
+    font-size: 24px;
+    margin-left: 30px;
+    text-align: center;
+    color: rgb(4, 4, 4);
+  }
+  #beauty--1 {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(39, 111, 135);
+  }
+
+  .space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .back {
+    background-color: hsl(228, 45%, 44%);
+    color: whitesmoke;
+    border-radius: 5mm;
+    text-decoration: none;
+    padding: 8px 18px 10px 12px;
+    font-size: 16px;
+  }
+  .back:hover,
+  .back:active {
+    background-color: hsl(176, 72%, 28%);
+  }
+
+  #mark {
+    font-style: normal;
+    font-size: 10px;
+    color: hsl(0, 4%, 27%);
+    margin-right: 15%;
+  }
+  .book--mark {
+    margin-left: 93%;
+    border: 0.3mm solid hsl(176, 50%, 47);
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 9mm;
+    text-decoration: none;
+    padding-right: 65px;
+  }
+
+  .rating {
+    width: 88%;
+    border: 2mm solid hsl(176, 68%, 39%);
+    background-color: hsl(176, 68%, 39%);
+    margin-top: 2%;
+    border-radius: 5mm;
+  }
+  .inside--rating {
+    margin-left: -2%;
+    margin-top: -1.2%;
+    position: absolute;
+    width: 50%;
+    border: 2mm solid hsl(228, 45%, 44%);
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 5mm;
+  }
+
+  .bamboo-own {
+    color: rgb(123, 104, 142);
+    width: 98%;
+    border: 0.5mm solid rgb(123, 104, 142);
+    padding: 8px 30px 8px 25px;
+    font-size: 15px;
+    margin-top: 2%;
+    border-radius: 2mm;
+  }
+  .stand,
+  .stan {
+    font-size: 18px;
+    color: hsl(0, 7%, 6%);
+    font-style: normal;
+  }
+  .stan {
+    margin-top: 10%;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(246, 240, 240);
+    padding: 4px 19px 4px 19px;
+    background-color: blue;
+    border-radius: 8mm;
+    margin-right: 20px;
+  }
+
+  .stan:hover,
+  .stan:active {
+    background-color: hsl(176, 72%, 28%);
+  }
+
+  .Selection {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 40%;
+    margin-left: 10%;
+    left: 40%;
+    z-index: 10;
+    width: 90%;
+  }
+  #pledge,
+  .ledge {
+    font-size: 12px;
+  }
+  .rule {
+    border-top: 0.5mm solid blue;
+    width: 100%;
+  }
+  .enter {
+    font-size: 17px;
+  }
+  .continue {
+    margin-top: 15%;
+    font-size: 13px;
+  }
+  .select {
+    margin-top: 7%;
+    transition: all 0.5s;
+  }
+  input[type='numeric'] {
+    margin-top: -80%;
+    margin-left: 30%;
+  }
+  .overlay {
+    width: 99%;
+    height: 308.5%;
+  }
+  .modal {
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+    background-color: white;
+    border-radius: 5px;
+    width: 95%;
+    transition: all 0.5s;
+  }
+
+  .close-modal {
+    position: absolute;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 12px;
+    padding: 10px 20px 10px 15px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 54mm;
+  }
+  .close {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+  .check {
+    margin-top: 1%;
+  }
+}
+
+/*small phones to small tablets: from 0  to 480px*/
+@media only screen and (max-width: 480px) {
+  header {
+    background-image: url(/images/image-hero-mobile.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+  }
+  .nav__logo {
+    margin-top: -5rem;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+    padding: 0 6rem;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .nav__links {
+    margin-left: -90%;
+    margin-top: 20rem;
+    border: 1mm solid white;
+    border-radius: 2mm;
+    padding: 1px 100px 1px 0px;
+    background-color: white;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 550;
+    transition: 2ms;
+  }
+  .nav__item {
+    margin-top: 2rem;
+    display: inline-block;
+  }
+  .nav__link {
+    text-decoration: none;
+    color: rgba(21, 17, 17, 0.776);
+  }
+  .nav__link:hover,
+  .nav__link:active {
+    color: white;
+  }
+  .hidden {
+    display: none;
+  }
+  .hid {
+    display: none;
+  }
+  .close {
+    margin-top: -5rem;
+    align-items: center;
+    width: 15%;
+    margin-left: 55%;
+  }
+  .hamburger {
+    display: inline-block;
+    margin-top: -5rem;
+    align-items: center;
+    width: 10%;
+  }
+
+  .sect--1,
+  .sect--2,
+  .sect--3 {
+    border-radius: 3mm;
+    border: 2mm solid white;
+    background-color: white;
+    margin-left: 15px;
+    padding: 20px 10px 10px 10px;
+    width: 90%;
+    margin-top: 2%;
+  }
+
+  .master__logo {
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: -11%;
+  }
+
+  .sect--1 {
+    margin-top: -1%;
+  }
+  #master--1 {
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: center;
+    color: rgb(4, 4, 4);
+  }
+  #beauty--1 {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(39, 111, 135);
+  }
+
+  .space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .back {
+    background-color: hsl(228, 45%, 44%);
+    color: whitesmoke;
+    border-radius: 5mm;
+    text-decoration: none;
+    padding: 8px 18px 10px 12px;
+    font-size: 13px;
+  }
+  .back:hover,
+  .back:active {
+    background-color: hsl(176, 72%, 28%);
+  }
+
+  #mark {
+    font-style: normal;
+    font-size: 10px;
+    color: hsl(0, 4%, 27%);
+    margin-right: -1%;
+  }
+  .book--mark {
+    margin-left: 60%;
+    border: 0.3mm solid hsl(176, 50%, 47);
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 9mm;
+    text-decoration: none;
+    padding-right: 50px;
+  }
+
+  .rating {
+    width: 88%;
+    border: 2mm solid hsl(176, 68%, 39%);
+    background-color: hsl(176, 68%, 39%);
+    margin-top: 2%;
+    border-radius: 5mm;
+  }
+  .inside--rating {
+    margin-left: -2%;
+    margin-top: -1.8%;
+    position: absolute;
+    width: 50%;
+    border: 2mm solid hsl(228, 45%, 44%);
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 5mm;
+  }
+
+  .bamboo-own {
+    color: rgb(123, 104, 142);
+    width: 98%;
+    border: 0.5mm solid rgb(123, 104, 142);
+    padding: 8px 30px 8px 25px;
+    font-size: 15px;
+    margin-top: 2%;
+    border-radius: 2mm;
+  }
+  .stand,
+  .stan {
+    font-size: 14px;
+    color: hsl(0, 7%, 6%);
+    font-style: normal;
+  }
+  .stan {
+    margin-top: 10%;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(246, 240, 240);
+    padding: 4px 19px 4px 19px;
+    background-color: blue;
+    border-radius: 8mm;
+    margin-right: 20px;
+  }
+
+  .stan:hover,
+  .stan:active {
+    background-color: hsl(176, 72%, 28%);
+  }
+
+  .Selection {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 40%;
+    margin-left: 10%;
+    left: 40%;
+    z-index: 10;
+    width: 90%;
+  }
+  #pledge,
+  .ledge {
+    font-size: 12px;
+  }
+  .rule {
+    border-top: 0.5mm solid blue;
+    width: 100%;
+  }
+  .enter {
+    font-size: 17px;
+  }
+  .continue {
+    margin-top: 15%;
+    font-size: 13px;
+  }
+  .select {
+    margin-top: 7%;
+    transition: all 0.5s;
+  }
+  input[type='numeric'] {
+    margin-top: -80%;
+    margin-left: 30%;
+  }
+  .overlay {
+    width: 99%;
+    height: 308.5%;
+  }
+  .modal {
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+    background-color: white;
+    border-radius: 5px;
+    width: 95%;
+    transition: all 0.5s;
+  }
+
+  .close-modal {
+    position: absolute;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 12px;
+    padding: 10px 20px 10px 15px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 54mm;
+  }
+  .close {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+  .check {
+    margin-top: 1%;
+  }
+}
